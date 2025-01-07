@@ -1,0 +1,18 @@
+body {
+    background-color: ghostwhite;
+}
+header {
+    background: linear-gradient(to right, deepskyblue, blueviolet);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+footer {
+    margin-top: 20px;
+}
